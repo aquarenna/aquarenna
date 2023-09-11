@@ -2,43 +2,37 @@
 <html lang="en">
 <head>
   <meta charset="UTF-8">
-  <title>Virtual Assistant Services</title>
-  <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:wght@400;700&family=Roboto:wght@300;400&display=swap" rel="stylesheet">
+  <title>Virtual Support Co.</title>
   <link rel="stylesheet" href="styles.css">
 </head>
 <body>
   <header>
-    <h1>Your Virtual Assistant</h1>
-    <img src="https://via.placeholder.com/150" alt="Virtual Assistant Logo">
+    <h1>Virtual Support Co.</h1>
   </header>
   <nav>
     <ul>
       <li><a href="#home">Home</a></li>
-      <li><a href="#about">About</a></li>
+      <li><a href="#about">About Us</a></li>
       <li><a href="#services">Services</a></li>
       <li><a href="#testimonials">Testimonials</a></li>
-      <li><a href="#contact">Contact</a></li>
+      <li><a href="#contact">Contact Us</a></li>
     </ul>
   </nav>
   <section id="home">
-    <h2>Welcome</h2>
-    <img src="https://via.placeholder.com/300" alt="Welcome Image">
-    <p>We offer top-notch virtual assistant services to make your life easier.</p>
+    <h2>Welcome to Virtual Support Co.</h2>
+    <p>We offer top-notch virtual support services.</p>
   </section>
   <section id="about">
     <h2>About Us</h2>
-    <img src="https://via.placeholder.com/300" alt="About Us Image">
-    <p>We have years of experience in providing high-quality assistance.</p>
+    <p>We have been providing excellent virtual support since 2010.</p>
   </section>
   <section id="services">
     <h2>Services</h2>
-    <img src="https://via.placeholder.com/300" alt="Services Image">
-    <p>We offer a range of services to suit your needs.</p>
+    <p>We offer a variety of virtual support services to meet your needs.</p>
   </section>
   <section id="testimonials">
     <h2>Testimonials</h2>
-    <img src="https://via.placeholder.com/300" alt="Testimonials Image">
-    <p>"The best virtual assistant service I've ever used." - Jane Doe</p>
+    <p>"The best virtual support service I've ever used!" - Jane Doe</p>
   </section>
   <section id="contact">
     <h2>Contact Us</h2>
@@ -51,7 +45,52 @@
     </form>
   </section>
   <footer>
-    <p>&copy; 2023 Your Virtual Assistant. All rights reserved.</p>
+    <p>© 2023 Virtual Support Co.</p>
   </footer>
 </body>
 </html>
+
+
+
+
+
+
+body {
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+  background-color: #f9f9f9;
+}
+
+header {
+  background-color: #f2d2e4;
+  text-align: center;
+  padding: 1em;
+}
+
+nav ul {
+  background-color: #f2d2e4;
+  overflow: hidden;
+  color: white;
+}
+
+nav ul li {
+  float: left;
+  display: inline;
+  padding: 14px 16px;
+}
+
+section {
+  margin: 15px;
+  padding: 15px;
+  text-align: justify;
+}
+
+footer {
+  background-color: #f2d2e4;
+  text-align: center;
+  padding: 1em;
+  position: relative;
+  bottom: 0;
+  width: 100%;
+}
